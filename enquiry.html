@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit an enquiry about CodeBridge programming lessons.">
+    <title>CodeBridge | Enquiry</title>
+</head>
+<body>
+    <!-- Enquiry Page Header --> 
+    <header>
+        <h1>CodeBridge Learning Initiative</h1>
+        <p>Programming Lessons for Beginners and Young People</p>
+        
+        <!-- Main Navigation -->
+        <nav>
+            <a href="index.html">
+                <img src="icons/home.png" alt="" width="20">
+                Home
+            </a>
+            <a href="about.html">
+                <img src="icons/aboutus.png" alt="" width="20">
+                About Us
+            </a>
+            <a href="lessons.html">
+                <img src="icons/lesson.png" alt="" width="20">
+                Lessons
+            </a>
+            <a href="enquiry.html">
+                <img src="icons/enquiry.png" alt="" width="20">
+                Enquiry
+            </a>
+            <a href="contact.html">
+                <img src="icons/contact.png" alt="" width="20">
+                Contact
+            </a>
+    </header>
+
+
+    <main>
+        <section>
+            <h2>Programming Lesson Enquiry</h2>
+
+            <img src="C:\Users\Nare\OneDrive - ADvTECH Ltd\Documents\WEBE5020 POE Assessment\WEDE5020 POE Assessment\images\enquiry page/enquiry.jpg"
+            alt="Computer programming code"
+            width="300">
+
+            <p>
+                Are you interested in learning programming with CodeBridge? Complete the enquiry form below to request
+                more information about our programming lessons, available courses and learning locations.
+            </p>
+
+            <p>
+                Whether you are a beginner who has never written a program before or a learner who wants to improve their
+                existing programming skills, we encourage you to contact us. Providing accurate information will help
+                our team respond to your enquiry more effectively.
+            </p>
+        </section>
+
+
+        <section>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Your Information</legend>
+
+                    <p>
+                        Please provide your basic contact information below.
+                    </p>
+
+                    <!--Asking for the user's full name.-->
+                    <label for="fullname">Full Name:</label>
+                    <br>
+                    <input
+                        type="text"
+                        id="fullname"
+                        name="fullname"
+                        placeholder="Enter your full name"
+                        required
+                    >
+
+                    <br><br>
+
+                    <!--Asking for the user's email address.-->
+                    <label for="email">
+                        Email Address:
+                    </label>
+                    <br>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email address"
+                        required
+                    >
+
+                    <br><br>
+
+                    <!--Asking for the user's phone number.-->
+                    <label for="phone">
+                        Phone Number:
+                    </label>
+                    <br>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Enter your phone number"
+                    >
+
+                    <br><br>
+
+                    <!--Asking for the user's age group.-->
+                    <label for="age">
+                        Age Group:
+                    </label>
+                    <br>
+                    <select id="age" name="age">
+                        <option value="">
+                            Select an age group
+                        </option>
+                        <option value="high-school">
+                            High School
+                        </option>
+                        <option value="university">
+                            University Student
+                        </option>
+                        <option value="young-adult">
+                            Young Adult
+                        </option>
+                        <option value="other">
+                            Other
+                        </option>
+                    </select>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Lesson Information</legend>
+                    <p>
+                        Select the programming course you are most interested in and provide any additional
+                        information that may help us understand your learning needs.
+                    </p>
+
+                    <!--Asking for the user's preferred programming course.-->
+                    <label for="course">
+                        Programming Course:
+                    </label>
+                    <br>
+                    <select id="course"
+                            name="course"
+                            required>
+                        <option value="">
+                            Select a course
+                        </option>
+                        <option value="fundamentals">
+                            Programming Fundamentals
+                        </option>
+                        <option value="python">
+                            Python
+                        </option>
+                        <option value="java">
+                            Java
+                        </option>
+                        <option value="javascript">
+                            JavaScript
+                        </option>
+                    </select>
+                    <br><br>
+
+                    <!--Asking for the user's preferred learning location.-->
+                    <label for="location">
+                        Preferred Location:
+                    </label>
+                    <br>
+                    <select id="location"
+                            name="location">
+                        <option value="">
+                            Select a location
+                        </option>
+                        <option value="polokwane">
+                            Polokwane
+                        </option>
+                        <option value="seshego">
+                            Seshego
+                        </option>
+                    </select>
+
+                    <br><br>
+
+                    <!--Asking for the user's enquiry message.-->
+                    <label for="message">
+                        Your Enquiry:
+                    </label>
+                    <br>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="8"
+                        cols="50"
+                        placeholder="Tell us what you would like to know..."
+                        required></textarea>
+
+                    <br><br>
+
+                    <!--Asking if the user wants to receive updates about future programming lessons.-->
+                    <input
+                        type="checkbox"
+                        id="updates"
+                        name="updates"
+                    >
+                    <label for="updates">
+                        I would like to receive information about future programming lessons.
+                    </label>
+                </fieldset>
+
+                <br>
+
+                <!-- Submit and Reset buttons for the enquiry form. -->
+                <button type="submit">
+                    Submit Enquiry
+                </button>
+
+                <button type="reset">
+                    Clear Form
+                </button>
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 CodeBridge Learning Initiative. All rights reserved.
+        </p>
+
+    </footer>
+</body>
+</html>
