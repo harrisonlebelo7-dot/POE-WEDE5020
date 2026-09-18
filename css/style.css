@@ -410,12 +410,14 @@ footer a:hover {
     color: white;
 }
 
-nav {
+nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 15px 5%;
-    background-color: #0b1f3a;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 10px;
 }
 
 .logo {
