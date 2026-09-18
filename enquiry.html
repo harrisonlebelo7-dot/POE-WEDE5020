@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Submit an enquiry about CodeBridge programming lessons.">
     <title>CodeBridge | Enquiry</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Enquiry Page Header --> 
@@ -14,26 +16,43 @@
         
         <!-- Main Navigation -->
         <nav>
-            <a href="index.html">
-                <img src="icons/home.png" alt="" width="20">
-                Home
-            </a>
-            <a href="about.html">
-                <img src="icons/aboutus.png" alt="" width="20">
-                About Us
-            </a>
-            <a href="lessons.html">
-                <img src="icons/lesson.png" alt="" width="20">
-                Lessons
-            </a>
-            <a href="enquiry.html">
-                <img src="icons/enquiry.png" alt="" width="20">
-                Enquiry
-            </a>
-            <a href="contact.html">
-                <img src="icons/contact.png" alt="" width="20">
-                Contact
-            </a>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="icons/home.png" alt="" width="20">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        <img src="icons/aboutus.png" alt="" width="20">
+                        About Us
+                    </a>
+                </li>
+
+                <li>
+                    <a href="lessons.html">
+                        <img src="icons/lesson.png" alt="" width="20">
+                        Lessons
+                    </a>
+                </li>
+
+                <li>
+                    <a href="enquiry.html">
+                        <img src="icons/enquiry.png" alt="" width="20">
+                        Enquiry
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        <img src="icons/contact.png" alt="" width="20">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
 
@@ -41,7 +60,7 @@
         <section>
             <h2>Programming Lesson Enquiry</h2>
 
-            <img src="Images\itstudents.jpg"
+            <img src="Images/itstudents.jpg"
             width="300">
 
             <p>
@@ -74,6 +93,7 @@
                         id="fullname"
                         name="fullname"
                         placeholder="Enter your full name"
+                        autocomplete="name"
                         required
                     >
 
@@ -89,6 +109,7 @@
                         id="email"
                         name="email"
                         placeholder="Enter your email address"
+                        autocomplete="nemail"
                         required
                     >
 
@@ -104,6 +125,7 @@
                         id="phone"
                         name="phone"
                         placeholder="Enter your phone number"
+                        autocomplete="tel"
                     >
 
                     <br><br>
